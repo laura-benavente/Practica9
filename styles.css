@@ -1,0 +1,62 @@
+body {
+    text-align: center; /*centrado*/
+    margin: 0; /*Margen body*/
+    padding: 20px; /**/
+    background-color: rgb(252, 223, 198); /* Color fondo body*/
+}
+
+.header {
+    font-size: 36px; /* Fuente de header */
+    margin-bottom: 20px; /*Margen Header*/
+    color: #5e1b77; /*Color de fuente de header*/
+
+}
+
+.DobleV {
+    max-width: 600px; /* ancho maximo foto*/
+    height: auto; /* Altura foto*/
+    margin-bottom: 20px; /*Margen foto*/
+}
+
+article {
+    margin-bottom: 20px; /* Margen*/
+    font-family: 'Franklin Gothic Medium'; /* fuente artículo*/
+    font-size: 20px; /*tamaño de la fuente del artículo*/
+}
+
+table {
+    width: 50%; /*Ancho tabla respecto a la pantalla*/
+    border: 5px solid #5e1b77; /* Color de borde*/
+    background-color:  #f7d3e8; /*color fondo tabla*/
+    margin: 20px auto; /* Centrar la tabla */
+    border-spacing: 10px; /* Espaciado entre celdas */
+}
+
+th {
+    border: 5px solid #5e1b77; /* Color de borde de las celdas */
+    padding: 10px; /* Espacip interno */
+    text-align: center; /* Centrado de texto */
+    font-size: 24px; /* Tamaño fuente encabezado*/
+    font-family:Georgia, Times, 'Times New Roman', serif/* fuente th*/
+}
+
+td {
+    border: 5px solid #5e1b77; /* Color de borde de las celdas */
+    color: #a809a0; /*color fuente*/
+    padding: 10px; /* Espacip interno */
+    text-align: center; /* Centrado de texto */
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif/* Fuente */
+}
+
+a {
+    color: #7918a2; /* Color enlace */
+    text-decoration: none; /* Quitar subrayado de enlace*/
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',Verdana, sans-serif; /*Fuente links*/
+}
+
+a:hover {
+    color: #000000; /* Cambiar el color del enlace cuando se pasa el cursor por encima*/
+    text-decoration: underline /*subrayar cuando se pasa el cursor*/;
+}
+
+
